@@ -33,7 +33,7 @@ Modelagem completa de um sistema de controle acadêmico em **MySQL 8** (matrizes
 **Requisitos:** MySQL 8.0.16 ou superior (o `CHECK` só é aplicado a partir dessa versão); Windows com .NET 8 SDK ou Visual Studio 2022.
 
 1. No MySQL, execute na ordem os scripts da pasta `SQL/`: `01_ddl.sql` e `02_carga.sql`. O `03_consultas.sql` e o `04_integridade.sql` são opcionais.
-2. Em `CSharp/Db.cs`, troque `SUA_SENHA` pela senha do seu MySQL (e o servidor, se não for `localhost`). **Caso não tenha uma senha deixa como `Pwd=`.**
+2. Em `CSharp/Db.cs`, troque `SUA_SENHA` pela senha do seu MySQL (e o servidor, se não for `localhost`). **Caso não tenha uma senha deixe como `Pwd=`.**
 3. Dentro de `CSharp/`, rode `dotnet run` ou abra `AcademicoApp.csproj` no Visual Studio.
 
 ## Aplicação
